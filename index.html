@@ -15,7 +15,7 @@
       color: #00ff00;
       font-family: monospace;
     }
-    .aClock {
+    .aClock {   /*時計の大きさをmin(80vw, 80vh)で指定し、針や目盛りを%ベースにすることで、ウィンドウの拡縮に追随するようになる*/
       position: relative;
       width: min(70vw, 70vh);
       height: min(70vw, 70vh);
@@ -103,6 +103,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="aClock">
     <div class="scale"></div>
